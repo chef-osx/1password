@@ -19,7 +19,7 @@
 
 remote_file "#{Chef::Config[:file_cache_path]}/1Password-#{node['one_password']['version']}.zip" do
   checksum node['one_password']['checksum']
-  source "http://aws.cachefly.net/dist/1P/mac/1Password-#{node['one_password']['version']}.zip"
+  source "http://aws.cachefly.net/dist/1P/mac4/1Password-#{node['one_password']['version']}.zip"
 end
 
 execute "unzip 1password" do
