@@ -1,2 +1,2 @@
-default['one_password']['version'] = '4.2.2'
-default['one_password']['checksum'] = 'f472d12c879cec5620d22ec805e74d881cd6b41f2c254e960ce5d8ecb525dc6f'
+default['one_password']['version'] = '4.3'
+default['one_password']['checksum'] = '0716fb7163512a9aa9633439b4636bb01613c5ea38d153190074c098932834c6'
