@@ -11,7 +11,7 @@ Mac OS X. You must supply your own License Key for 1Password
 Attributes
 ==========
 
-* `node['one_password']['version']` - sets the version of 1password, default 3.5.7.
+* `node['one_password']['version']` - sets the version of 1password, default 5.1.
 * `node['one_password']['checksum']` - sets the sha256sum of the zip file.
 
 Usage
