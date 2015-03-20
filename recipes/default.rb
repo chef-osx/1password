@@ -25,5 +25,5 @@ end
 execute "unzip 1password" do
   command "unzip #{Chef::Config[:file_cache_path]}/1Password-#{node['one_password']['version']}.zip"
   cwd "/Applications"
-  not_if { ::File.directory?("/Applications/1Password 4.app") }
+  not_if { ::File.directory?("/Applications/#{node['one_password']['appname']}") }
 end
