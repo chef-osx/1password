@@ -1,6 +1,10 @@
 1Password Cookbook Changelog
 ============================
 
+v1.3.0 (2015-01-16)
+-------------------
+- Install 1Password 6.x series for Yosemite and greater
+
 v1.2.1 (2015-03-21)
 -------------------
 - Fixed missing .to_i
